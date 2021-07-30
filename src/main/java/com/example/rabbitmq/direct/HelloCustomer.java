@@ -12,5 +12,6 @@ public class HelloCustomer {
     @RabbitHandler
     public void receive1(String message){
         System.out.println("message = " + message);
+
     }
 }
